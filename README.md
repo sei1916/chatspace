@@ -59,7 +59,7 @@ Things you may want to cover:
 |------|----|-------|
 |name|string|null: false|
 |email|string|null: false|
-|password|string|null: falsee|
+|password|string|null: false|
 
 ### Association
 - has_many :messages
