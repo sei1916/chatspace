@@ -2,6 +2,7 @@
 
 ## membersテーブル
 
+
 |Column|Type|Options|
 |------|----|-------|
 |user_id|integer|null: false, foreign_key: true|
@@ -57,3 +58,4 @@
 - has_many :messages
 - has_many :members
 - has_many :users, through: :members
+
