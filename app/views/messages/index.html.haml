@@ -1,0 +1,52 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title ChatSpace
+    %link{"data-turbolinks-track" => "reload", :href => "style.css", :media => "all", :rel => "stylesheet"}/
+    %script{"data-turbolinks-track" => "reload", :src => "/assets/application-6b92f7bcf94deede5afc9ab209237e3423679aa989ffa2c7a102c62118315e23.js"}
+  %body
+    #wrapper
+      .header-box
+        %p.header-box__box グループを作成しました
+      .header
+        .header-left
+          .header-uname
+            %p.header-uname__uname ユーザーネーム
+            .header-menu
+              %i.header-men__.fa.fa-edit
+              %i.header-men__.fa.fa-cog
+
+        .header-right
+          .header-edit
+            %p.header-edit__edit Edit
+          .header-title
+            %p.header-title__gname グループネーム
+            %p.header-title__member Member : user
+
+      .contents
+        .contents-left
+          .contents-box
+            %p.contents-box__gname グループネーム
+            %p.contents-box__rtext newテキスト
+
+        .contents-right
+          .contents-message
+            .contents-head
+              %p.contents-head__uname ユーザーネーム
+              %p.contents-head__date 2019/04/01(sat) 14:20:09
+            .contents-text
+              %p.contents-text__text テキスト
+
+
+
+      .fotter
+        .fotter-main
+          .fotter-message
+            %p.fotter-message__type type a message
+            %i.fotter-message__.fa.fa-image.fa-lg
+          .fotter-send
+            %p.fotter-send__send Send
+
+
+
